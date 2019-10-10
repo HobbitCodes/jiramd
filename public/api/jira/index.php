@@ -10,47 +10,38 @@ header('Content-Type: application/json; charset=utf-8');
 header("Access-Control-Allow-Origin: *");
 header("Access-Control-Allow-Methods: PUT, GET, POST");
 
-echo "<pre>";
-var_dump($_POST);
-echo "</pre>";
+if (empty($_POST['jira_host']) || empty($_POST['jira_user']) || empty($_POST['jira_password'])) die();
 
-echo "<pre>";
-var_dump($_FILES);
-echo "</pre>";
-exit;
+if ($_POST) {
+    new JiraMd($_POST, $_FILES);
 
-//if (empty($_POST['project_key']) && empty($_POST['project_directory'])) die();
-//
-//if ($_POST) {
-//    new JiraMd($_POST);
-//
-//    echo json_encode([
-//        "sent" => true
-//    ]);
-//} else {
-//    echo json_encode(["sent" => false, "message" => "Something went wrong"]);
-//}
+    echo json_encode([
+        "sent" => true
+    ]);
+} else {
+    echo json_encode(["sent" => false, "message" => "Something went wrong"]);
+}
 
 class JiraMd {
 
     protected $iss;
 
-    public function __construct($post)
+    public function __construct($post, $files)
     {
         $this->iss = new IssueService(new ArrayConfiguration(
             [
-                'jiraHost' => 'https://strawberrysoup.atlassian.net',
-                'jiraUser' => 'harry@strawberrysoup.co.uk',
-                'jiraPassword' => 'trrERCxhzKRyjajRxUHmBCA4',
+                'jiraHost' => $post['jira_host'],
+                'jiraUser' => $post['jira_user'],
+                'jiraPassword' => $post['jira_password'],
             ]
         ));
 
-        foreach (array_diff(scandir($post['project_directory']), ['.', '..']) as $file) {
-            $file_parts = pathinfo($file);
+        foreach ($files as $file) {
+            $extension = pathinfo($file['name'], PATHINFO_EXTENSION);
 
-            if ($file_parts['extension'] == 'md') {
+            if ($extension == 'md') {
                 $result = [];
-                $file = explode("====", file_get_contents($post['project_directory'] . $file));
+                $file = explode("====", file_get_contents($file['tmp_name']));
 
                 $epic = $file[0];
                 unset($file[0]);

@@ -63,7 +63,7 @@
           <entry key="html" value="287" />
           <entry key="js" value="1635" />
           <entry key="json" value="4" />
-          <entry key="php" value="372" />
+          <entry key="php" value="466" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
@@ -72,7 +72,7 @@
           <entry key="HTML" value="287" />
           <entry key="JSON" value="4" />
           <entry key="JavaScript" value="1635" />
-          <entry key="PHP" value="372" />
+          <entry key="PHP" value="466" />
           <entry key="htaccess" value="1" />
         </counts>
       </usages-collector>
@@ -104,11 +104,11 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="false">
+      <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/public/api/jira/index.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-5">
-              <caret column="5" selection-start-column="5" selection-end-column="5" />
+            <state relative-caret-position="323">
+              <caret line="41" column="26" selection-start-line="41" selection-start-column="26" selection-end-line="41" selection-end-column="26" />
               <folding>
                 <element signature="e#47#96#0#PHP" expanded="true" />
               </folding>
@@ -116,11 +116,11 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/Components/JiraForm.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="179">
-              <caret line="26" column="37" selection-start-line="26" selection-start-column="37" selection-end-line="26" selection-end-column="37" />
+            <state relative-caret-position="330">
+              <caret line="22" column="38" selection-start-line="22" selection-start-column="25" selection-end-line="22" selection-end-column="38" />
               <folding>
                 <element signature="e#0#25#0" expanded="true" />
               </folding>
@@ -161,8 +161,8 @@
         <option value="$PROJECT_DIR$/src/styles/stylesheet.css" />
         <option value="$PROJECT_DIR$/src/Components/Main.js" />
         <option value="$PROJECT_DIR$/src/Components/CreateProject.js" />
-        <option value="$PROJECT_DIR$/public/api/jira/index.php" />
         <option value="$PROJECT_DIR$/src/Components/JiraForm.js" />
+        <option value="$PROJECT_DIR$/public/api/jira/index.php" />
       </list>
     </option>
   </component>
@@ -268,12 +268,12 @@
       <workItem from="1570614155819" duration="7350000" />
       <workItem from="1570689509898" duration="32000" />
       <workItem from="1570689627196" duration="795000" />
-      <workItem from="1570712302456" duration="4535000" />
+      <workItem from="1570712302456" duration="5389000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="18748000" />
+    <option name="totallyTimeSpent" value="19602000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="23" width="1440" height="827" extended-state="0" />
@@ -419,16 +419,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/Components/CreateProject.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="390">
-          <caret line="26" selection-start-line="26" selection-end-line="26" />
-          <folding>
-            <element signature="e#0#39#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/Old/App.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="121">
@@ -439,22 +429,32 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/public/api/jira/index.php">
+    <entry file="file://$PROJECT_DIR$/src/Components/CreateProject.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-5">
-          <caret column="5" selection-start-column="5" selection-end-column="5" />
+        <state relative-caret-position="390">
+          <caret line="26" selection-start-line="26" selection-end-line="26" />
           <folding>
-            <element signature="e#47#96#0#PHP" expanded="true" />
+            <element signature="e#0#39#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/Components/JiraForm.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="179">
-          <caret line="26" column="37" selection-start-line="26" selection-start-column="37" selection-end-line="26" selection-end-column="37" />
+        <state relative-caret-position="330">
+          <caret line="22" column="38" selection-start-line="22" selection-start-column="25" selection-end-line="22" selection-end-column="38" />
           <folding>
             <element signature="e#0#25#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/public/api/jira/index.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="323">
+          <caret line="41" column="26" selection-start-line="41" selection-start-column="26" selection-end-line="41" selection-end-column="26" />
+          <folding>
+            <element signature="e#47#96#0#PHP" expanded="true" />
           </folding>
         </state>
       </provider>

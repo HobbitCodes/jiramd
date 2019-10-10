@@ -40,9 +40,7 @@ class JiraForm extends Component {
     }
 
     onChange(e) {
-        this.setState({ files: e.target.files });
-
-        console.table(this.state.files);
+        this.setState({files: e.target.files});
     }
 
     render() {
