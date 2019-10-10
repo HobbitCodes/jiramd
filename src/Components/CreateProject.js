@@ -14,7 +14,7 @@ class CreateProject extends Component {
     render() {
         return (
             <div>
-                <Title title={'Jira MD'}/>
+                <Title title={'Create Jira Board'}/>
                 <div className="form">
                     <JiraForm/>
                 </div>

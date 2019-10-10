@@ -2,8 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="61208c6e-a959-409c-a579-b4e5f1562468" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/public/api/jira/index.php" beforeDir="false" afterPath="$PROJECT_DIR$/public/api/jira/index.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Components/JiraForm.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/Components/JiraForm.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Components/CreateProject.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/Components/CreateProject.js" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -61,7 +60,7 @@
           <entry key="css" value="698" />
           <entry key="htaccess" value="1" />
           <entry key="html" value="287" />
-          <entry key="js" value="1635" />
+          <entry key="js" value="1653" />
           <entry key="json" value="4" />
           <entry key="php" value="466" />
         </counts>
@@ -71,7 +70,7 @@
           <entry key="CSS" value="698" />
           <entry key="HTML" value="287" />
           <entry key="JSON" value="4" />
-          <entry key="JavaScript" value="1635" />
+          <entry key="JavaScript" value="1653" />
           <entry key="PHP" value="466" />
           <entry key="htaccess" value="1" />
         </counts>
@@ -92,11 +91,11 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="false">
+      <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/Components/CreateProject.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="390">
-              <caret line="26" selection-start-line="26" selection-end-line="26" />
+            <state relative-caret-position="240">
+              <caret line="16" column="48" selection-start-line="16" selection-start-column="48" selection-end-line="16" selection-end-column="48" />
               <folding>
                 <element signature="e#0#39#0" expanded="true" />
               </folding>
@@ -104,11 +103,11 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/public/api/jira/index.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="323">
-              <caret line="41" column="26" selection-start-line="41" selection-start-column="26" selection-end-line="41" selection-end-column="26" />
+            <state relative-caret-position="298">
+              <caret line="35" column="13" selection-start-line="35" selection-start-column="13" selection-end-line="35" selection-end-column="13" />
               <folding>
                 <element signature="e#47#96#0#PHP" expanded="true" />
               </folding>
@@ -160,9 +159,9 @@
         <option value="$PROJECT_DIR$/public/index.html" />
         <option value="$PROJECT_DIR$/src/styles/stylesheet.css" />
         <option value="$PROJECT_DIR$/src/Components/Main.js" />
-        <option value="$PROJECT_DIR$/src/Components/CreateProject.js" />
         <option value="$PROJECT_DIR$/src/Components/JiraForm.js" />
         <option value="$PROJECT_DIR$/public/api/jira/index.php" />
+        <option value="$PROJECT_DIR$/src/Components/CreateProject.js" />
       </list>
     </option>
   </component>
@@ -268,12 +267,12 @@
       <workItem from="1570614155819" duration="7350000" />
       <workItem from="1570689509898" duration="32000" />
       <workItem from="1570689627196" duration="795000" />
-      <workItem from="1570712302456" duration="5389000" />
+      <workItem from="1570712302456" duration="5995000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="19602000" />
+    <option name="totallyTimeSpent" value="20208000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="23" width="1440" height="827" extended-state="0" />
@@ -294,7 +293,7 @@
       <window_info anchor="bottom" id="Version Control" order="8" />
       <window_info anchor="bottom" id="Database Changes" order="9" show_stripe_button="false" />
       <window_info anchor="bottom" id="Event Log" order="10" side_tool="true" />
-      <window_info active="true" anchor="bottom" id="Terminal" order="11" visible="true" weight="0.37142858" />
+      <window_info anchor="bottom" id="Terminal" order="11" weight="0.37142858" />
       <window_info anchor="right" id="Commander" order="0" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
@@ -429,16 +428,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/Components/CreateProject.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="390">
-          <caret line="26" selection-start-line="26" selection-end-line="26" />
-          <folding>
-            <element signature="e#0#39#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/Components/JiraForm.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="330">
@@ -451,10 +440,20 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/public/api/jira/index.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="323">
-          <caret line="41" column="26" selection-start-line="41" selection-start-column="26" selection-end-line="41" selection-end-column="26" />
+        <state relative-caret-position="298">
+          <caret line="35" column="13" selection-start-line="35" selection-start-column="13" selection-end-line="35" selection-end-column="13" />
           <folding>
             <element signature="e#47#96#0#PHP" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Components/CreateProject.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="240">
+          <caret line="16" column="48" selection-start-line="16" selection-start-column="48" selection-end-line="16" selection-end-column="48" />
+          <folding>
+            <element signature="e#0#39#0" expanded="true" />
           </folding>
         </state>
       </provider>
