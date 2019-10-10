@@ -24,10 +24,23 @@
       work correctly both with client-side routing and a non-root public URL.
       Learn how to configure a non-root public URL by running `npm run build`.
     -->
-    <title>React App</title>
+    <title>Jira MD</title>
   </head>
   <body>
     <noscript>You need to enable JavaScript to run this app.</noscript>
+    <header class="site-header">
+        <a href="/">Site logo</a>
+        <div class="hamburger" href="">
+            <span class="hamburger__top"></span>
+            <span class="hamburger__middle"></span>
+            <span class="hamburger__bottom"></span>
+        </div>
+        <div class="site-header__nav main-menu">
+            <ul>
+                <li><a href="/CreateProject">Get Started</a></li>
+            </ul>
+        </div>
+    </header>
     <div id="root"></div>
     <!--
       This HTML file is a template.
