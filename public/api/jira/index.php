@@ -6,21 +6,30 @@ use JiraRestApi\Issue\IssueService;
 use JiraRestApi\Issue\IssueField;
 use JiraRestApi\JiraException;
 
+header('Content-Type: application/json; charset=utf-8');
 header("Access-Control-Allow-Origin: *");
-$rest_json = file_get_contents("php://input");
-$_POST = json_decode($rest_json, true);
+header("Access-Control-Allow-Methods: PUT, GET, POST");
 
-if (empty($_POST['project_key']) && empty($_POST['project_directory'])) die();
+echo "<pre>";
+var_dump($_POST);
+echo "</pre>";
 
-if ($_POST) {
-    new JiraMd($_POST);
+echo "<pre>";
+var_dump($_FILES);
+echo "</pre>";
+exit;
 
-    echo json_encode([
-        "sent" => true
-    ]);
-} else {
-    echo json_encode(["sent" => false, "message" => "Something went wrong"]);
-}
+//if (empty($_POST['project_key']) && empty($_POST['project_directory'])) die();
+//
+//if ($_POST) {
+//    new JiraMd($_POST);
+//
+//    echo json_encode([
+//        "sent" => true
+//    ]);
+//} else {
+//    echo json_encode(["sent" => false, "message" => "Something went wrong"]);
+//}
 
 class JiraMd {
 

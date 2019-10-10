@@ -7,28 +7,32 @@ class JiraForm extends Component {
     constructor(props) {
         super(props);
         this.state = {
-            files: null
+            files: []
         };
 
         this.onSubmit = this.onSubmit.bind(this);
         this.onChange = this.onChange.bind(this);
-        this.uploadFile = this.uploadFile.bind(this);
+        this.createBoard = this.createBoard.bind(this);
     }
 
     async onSubmit(e) {
         e.preventDefault();
-        console.table(this.state.files);
+        const formData = new FormData();
+        formData.append('jira_host', e.target.jira_host.value);
+        formData.append('jira_user', e.target.jira_user.value);
+        formData.append('jira_password', e.target.jira_password.value);
+        formData.append('project_key', e.target.project_key.value);
 
-        // let res = await this.uploadFile(this.state.file);
-        // console.log(res.data);
+        for (const file of this.state.files) {
+            formData.append(file.name, file)
+        }
+
+        let res = await this.createBoard(formData);
+        console.log(res.data);
     }
 
-    async uploadFile(file){
-        const formData = new FormData();
-
-        formData.append('avatar',file);
-
-        return  await axios.post(this.UPLOAD_ENDPOINT, formData,{
+    async createBoard(formData) {
+        return await axios.post(this.UPLOAD_ENDPOINT, formData, {
             headers: {
                 'content-type': 'multipart/form-data'
             }
@@ -36,7 +40,9 @@ class JiraForm extends Component {
     }
 
     onChange(e) {
-        this.setState({files: e.target.files})
+        this.setState({ files: e.target.files });
+
+        console.table(this.state.files);
     }
 
     render() {
