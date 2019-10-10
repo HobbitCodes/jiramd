@@ -60,7 +60,7 @@
           <entry key="css" value="698" />
           <entry key="htaccess" value="1" />
           <entry key="html" value="287" />
-          <entry key="js" value="1653" />
+          <entry key="js" value="1654" />
           <entry key="json" value="4" />
           <entry key="php" value="466" />
         </counts>
@@ -70,7 +70,7 @@
           <entry key="CSS" value="698" />
           <entry key="HTML" value="287" />
           <entry key="JSON" value="4" />
-          <entry key="JavaScript" value="1653" />
+          <entry key="JavaScript" value="1654" />
           <entry key="PHP" value="466" />
           <entry key="htaccess" value="1" />
         </counts>
@@ -94,8 +94,8 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/Components/CreateProject.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="240">
-              <caret line="16" column="48" selection-start-line="16" selection-start-column="48" selection-end-line="16" selection-end-column="48" />
+            <state relative-caret-position="30">
+              <caret line="2" column="34" selection-start-line="2" selection-start-column="34" selection-end-line="2" selection-end-column="34" />
               <folding>
                 <element signature="e#0#39#0" expanded="true" />
               </folding>
@@ -267,12 +267,12 @@
       <workItem from="1570614155819" duration="7350000" />
       <workItem from="1570689509898" duration="32000" />
       <workItem from="1570689627196" duration="795000" />
-      <workItem from="1570712302456" duration="5995000" />
+      <workItem from="1570712302456" duration="6263000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="20208000" />
+    <option name="totallyTimeSpent" value="20476000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="23" width="1440" height="827" extended-state="0" />
@@ -292,8 +292,8 @@
       <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
       <window_info anchor="bottom" id="Version Control" order="8" />
       <window_info anchor="bottom" id="Database Changes" order="9" show_stripe_button="false" />
-      <window_info anchor="bottom" id="Event Log" order="10" side_tool="true" />
-      <window_info anchor="bottom" id="Terminal" order="11" weight="0.37142858" />
+      <window_info anchor="bottom" id="Event Log" order="10" sideWeight="0.5007153" side_tool="true" weight="0.37142858" />
+      <window_info active="true" anchor="bottom" id="Terminal" order="11" sideWeight="0.49928468" visible="true" weight="0.37142858" />
       <window_info anchor="right" id="Commander" order="0" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
@@ -450,8 +450,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/Components/CreateProject.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="240">
-          <caret line="16" column="48" selection-start-line="16" selection-start-column="48" selection-end-line="16" selection-end-column="48" />
+        <state relative-caret-position="30">
+          <caret line="2" column="34" selection-start-line="2" selection-start-column="34" selection-end-line="2" selection-end-column="34" />
           <folding>
             <element signature="e#0#39#0" expanded="true" />
           </folding>
