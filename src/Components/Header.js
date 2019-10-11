@@ -21,7 +21,6 @@ class Header extends Component {
     render() {
         return (
             <header className="site-header">
-                <a href="/">Site logo</a>
                 <div className={this.state.hamburger_class} onClick={this.onClick}>
                     <span className="hamburger__top"></span>
                     <span className="hamburger__middle"></span>

@@ -28,33 +28,6 @@ class Main extends Component {
                                 <JiraForm/>
                             </div>
                         </section>
-                        <section>
-                            <Title title={'What is Jira MD?'}/>
-                            <div className="intro-section">
-                                <div className="intro-section__copy">
-                                    <p>
-                                        Jira MD is a tool that used markdown files to create your Jira board.
-                                    </p>
-                                    <p>
-                                        It does this by targeting specific markdown syntax within the functional document.
-                                    </p>
-                                </div>
-                            </div>
-                        </section>
-                        <section>
-                            <Title title={'Known Issues'}/>
-                            <div className="intro-section">
-                                <ul>
-                                    <li>Add Drag and Drop functionality</li>
-                                    <li>Add progress animations</li>
-                                    <li>Finish styling of site</li>
-                                    <li>Need to check if epic already exists</li>
-                                    <li>Need to check if issue already exists under epic</li>
-                                    <li>Buy Domain</li>
-                                    <li>Launch</li>
-                                </ul>
-                            </div>
-                        </section>
                     </div>
                 )}/>
             </div>
