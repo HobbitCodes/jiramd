@@ -1,5 +1,17 @@
 @import url('https://fonts.googleapis.com/css?family=Roboto:400,700&display=swap');
 
+/*Jira blue*/
+/*#0052CC*/
+
+/*Jira Dark Blue*/
+/*#172B4D*/
+
+/*Pass*/
+/*#36B37E*/
+
+/*Fail*/
+/*#FF5630*/
+
 html, body {
     font-family: 'Roboto', sans-serif;
     font-size: 14px;
@@ -27,7 +39,7 @@ p {
 }
 
 .site-header__nav {
-    background: lightblue;
+    background: #0052CC;
     height: 100%;
     padding: 2rem;
     position: fixed;
@@ -53,7 +65,7 @@ p {
 .hamburger__top,
 .hamburger__middle,
 .hamburger__bottom {
-     background: grey;
+     background: #172B4D;
      content: '';
      display: block;
      height: 1px;
@@ -74,12 +86,14 @@ p {
  }
 
 .hamburger--active .hamburger__top {
+    background: #FFFFFF;
     top: 6px;
     transform: rotate(45deg);
 }
 
 .hamburger--active .hamburger__middle,
 .hamburger--active .hamburger__bottom {
+    background: #FFFFFF;
     top: 6px;
     transform: rotate(-45deg);
     width: 100%;
@@ -136,7 +150,7 @@ p {
 }
 
 .button, button {
-    background: #065784;
+    background: #0052CC;
     border: 0;
     color: #FFFFFF;
     cursor: pointer;
@@ -147,10 +161,10 @@ p {
     padding: 1rem 2rem;
     text-decoration: none;
     text-transform: uppercase;
-    transition: all 0.3 ease;
+    transition: all .7s ease;
     width: auto;
 }
 
 .button:hover, button:hover, .button:active, button:active, .button:focus button:focus {
-    background: #7B8589;
+    background: #172B4D;
 }
