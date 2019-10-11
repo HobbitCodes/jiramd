@@ -31,10 +31,10 @@ p {
     height: 100%;
     padding: 2rem;
     position: fixed;
-    right: -50%;
+    right: -25%;
     top: 0;
     transition: right .7s;
-    width: 50%;
+    width: 25%;
     box-sizing: border-box;
 }
 
@@ -47,6 +47,7 @@ p {
     height: 1rem;
     position: relative;
     width: 22px;
+    z-index: 1;
 }
 
 .hamburger__top,
@@ -93,6 +94,7 @@ p {
 .page-content {
     max-width: 1400px;
     padding: 0 2rem;
+    width: 100%;
 }
 
 .form {
