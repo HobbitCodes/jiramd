@@ -4,7 +4,7 @@
 /*#0052CC*/
 
 /*Jira Dark Blue*/
-/*#172B4D*/
+/*##172b4d*/
 
 /*Pass*/
 /*#36B37E*/
@@ -13,7 +13,7 @@
 /*#FF5630*/
 
 html, body {
-    background: #498CFA;
+    background-color: #0747A6;
     font-family: 'Roboto', sans-serif;
     font-size: 14px;
     margin: 0;
@@ -40,7 +40,7 @@ p {
 }
 
 .site-header__nav {
-    background: #0052CC;
+    background: #FFF;
     box-sizing: border-box;
     height: 100%;
     padding: 2rem;
@@ -67,7 +67,7 @@ p {
 .hamburger__top,
 .hamburger__middle,
 .hamburger__bottom {
-     background: #172B4D;
+     background: #FFFFFF;
      content: '';
      display: block;
      height: 1px;
@@ -88,14 +88,14 @@ p {
  }
 
 .hamburger--active .hamburger__top {
-    background: #FFFFFF;
+    background: #172B4D;
     top: 6px;
     transform: rotate(45deg);
 }
 
 .hamburger--active .hamburger__middle,
 .hamburger--active .hamburger__bottom {
-    background: #FFFFFF;
+    background: #172B4D;
     top: 6px;
     transform: rotate(-45deg);
     width: 100%;
@@ -116,11 +116,14 @@ p {
 
 .form {
     background: #FFF;
-    box-shadow: 0 0 15px 10px rgba(0, 0, 0, 0.4);
-    margin: auto;
-    padding: 2rem;
+    border-radius: 3px;
+    box-shadow: rgba(0, 0, 0, 0.1) 0px 0px 10px;
+    box-sizing: border-box;
+    color: #5E6C84;
+    margin: 0px auto 24px;
+    padding: 24px 40px;
     position: relative;
-    width: 360px;
+    width: 400px;
 }
 
 body:after{
@@ -174,21 +177,31 @@ body:after{
 }
 
 .button, button {
+    align-items: baseline;
     background: #0052CC;
-    border: 0;
-    color: #FFFFFF;
+    border-radius: 3px;
+    border-width: 0px;
+    box-sizing: border-box;
+    color: #FFF;
     cursor: pointer;
-    display: inline-block;
-    font-family: "Roboto", sans-serif;
-    font-size: 14px;
-    outline: 0;
-    padding: 1rem 2rem;
+    display: inline-flex;
+    font-size: inherit;
+    font-style: normal;
+    font-weight: normal;
+    height: 39px;
+    justify-content: center;
+    line-height: 39px;
+    max-width: 100%;
+    outline: none;
+    padding: 0px 8px;
+    text-align: center;
     text-decoration: none;
-    text-transform: uppercase;
-    transition: all .7s ease;
-    width: auto;
+    transition: background 0.1s ease-out 0s, box-shadow 0.15s cubic-bezier(0.47, 0.03, 0.49, 1.38) 0s;
+    vertical-align: middle;
+    white-space: nowrap;
+    width: 100%;
 }
 
 .button:hover, button:hover, .button:active, button:active, .button:focus button:focus {
-    background: #172B4D;
+    background: #005ce6;
 }
