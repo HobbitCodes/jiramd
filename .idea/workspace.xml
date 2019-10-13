@@ -2,10 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="61208c6e-a959-409c-a579-b4e5f1562468" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/public/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/manifest.json" beforeDir="false" afterPath="$PROJECT_DIR$/public/manifest.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/styles/stylesheet.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/styles/stylesheet.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Components/JiraForm.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/Components/JiraForm.js" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -34,7 +31,7 @@
           <entry key="env" value="1" />
           <entry key="htaccess" value="2" />
           <entry key="html" value="4" />
-          <entry key="js" value="35" />
+          <entry key="js" value="36" />
           <entry key="json" value="6" />
           <entry key="md" value="1" />
           <entry key="php" value="8" />
@@ -48,7 +45,7 @@
           <entry key="CSS" value="6" />
           <entry key="HTML" value="4" />
           <entry key="JSON" value="6" />
-          <entry key="JavaScript" value="35" />
+          <entry key="JavaScript" value="36" />
           <entry key="Markdown" value="1" />
           <entry key="PHP" value="8" />
           <entry key="SVG" value="1" />
@@ -66,7 +63,7 @@
           <entry key="css" value="958" />
           <entry key="htaccess" value="1" />
           <entry key="html" value="350" />
-          <entry key="js" value="2523" />
+          <entry key="js" value="2537" />
           <entry key="json" value="42" />
           <entry key="php" value="466" />
         </counts>
@@ -76,7 +73,7 @@
           <entry key="CSS" value="958" />
           <entry key="HTML" value="350" />
           <entry key="JSON" value="42" />
-          <entry key="JavaScript" value="2523" />
+          <entry key="JavaScript" value="2537" />
           <entry key="PHP" value="466" />
           <entry key="htaccess" value="1" />
         </counts>
@@ -95,6 +92,18 @@
         </entry>
       </file>
       <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/Components/JiraForm.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="293">
+              <caret line="48" column="121" selection-start-line="48" selection-start-column="121" selection-end-line="48" selection-end-column="121" />
+              <folding>
+                <element signature="e#0#38#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/styles/stylesheet.css">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="114">
@@ -123,13 +132,13 @@
       <find>page-</find>
       <find>sw</find>
       <find>contain</find>
-      <find>site-h</find>
       <find>form</find>
       <find>React app</find>
       <find>header</find>
       <find>create react app sa</find>
       <find>.form</find>
       <find>.button</find>
+      <find>site-h</find>
     </findStrings>
     <dirStrings>
       <dir>$PROJECT_DIR$/src</dir>
@@ -158,12 +167,12 @@
         <option value="$PROJECT_DIR$/src/index.js" />
         <option value="$PROJECT_DIR$/package.json" />
         <option value="$PROJECT_DIR$/src/serviceWorker.js" />
-        <option value="$PROJECT_DIR$/src/Components/JiraForm.js" />
         <option value="$PROJECT_DIR$/src/Components/Header.js" />
         <option value="$PROJECT_DIR$/public/index.html" />
         <option value="$PROJECT_DIR$/public/manifest.json" />
         <option value="$PROJECT_DIR$/src/Components/Main.js" />
         <option value="$PROJECT_DIR$/src/styles/stylesheet.css" />
+        <option value="$PROJECT_DIR$/src/Components/JiraForm.js" />
       </list>
     </option>
   </component>
@@ -288,12 +297,12 @@
       <workItem from="1570795809838" duration="2739000" />
       <workItem from="1570799543418" duration="663000" />
       <workItem from="1570804766006" duration="1143000" />
-      <workItem from="1570807440443" duration="2641000" />
+      <workItem from="1570807440443" duration="2947000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="30690000" />
+    <option name="totallyTimeSpent" value="30996000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="0" width="1440" height="900" extended-state="0" />
@@ -412,16 +421,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/Components/JiraForm.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="248">
-          <caret line="45" column="14" selection-start-line="45" selection-start-column="14" selection-end-line="45" selection-end-column="14" />
-          <folding>
-            <element signature="e#0#38#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/index.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="90">
@@ -471,6 +470,16 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="114">
           <caret line="69" column="5" selection-start-line="69" selection-start-column="5" selection-end-line="69" selection-end-column="5" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Components/JiraForm.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="293">
+          <caret line="48" column="121" selection-start-line="48" selection-start-column="121" selection-end-line="48" selection-end-column="121" />
+          <folding>
+            <element signature="e#0#38#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>

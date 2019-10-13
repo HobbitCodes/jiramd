@@ -46,10 +46,10 @@ class JiraForm extends Component {
     render() {
         return (
             <form className="box" onSubmit={this.onSubmit}>
-                <input type="text" name="jira_host" placeholder="https://{COMPANY_NAME}.atlassian.net"/>
-                <input type="text" name="jira_user" placeholder="Username"/>
-                <input type="password" name="jira_password" placeholder="***********"/>
-                <input type="text" name="project_key" placeholder="HWBI"/>
+                <input type="text" name="jira_host" placeholder="https://{COMPANY_NAME}.atlassian.net" autoComplete="off"/>
+                <input type="text" name="jira_user" placeholder="Username" autoComplete="off"/>
+                <input type="password" name="jira_password" placeholder="***********" autoComplete="off"/>
+                <input type="text" name="project_key" placeholder="HWBI" autoComplete="off"/>
                 <input type="file" name="files[]" id="file" multiple onChange={this.onChange}/>
                 <button>Create Project</button>
             </form>
