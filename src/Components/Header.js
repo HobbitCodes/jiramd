@@ -27,6 +27,9 @@ class Header extends Component {
                     <span className="hamburger__bottom"></span>
                 </div>
                 <div className={this.state.menu_class}>
+                    <div class="menu-header">
+                        Jira MD
+                    </div>
                     <ul>
                         <li><a>Get Started</a></li>
                         <li><a href="https://github.com/HobbitCodes" target="_blank" rel="noopener noreferrer">View repo</a></li>

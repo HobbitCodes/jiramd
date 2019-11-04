@@ -34,7 +34,7 @@ p {
     justify-content: flex-end;
     left: 0;
     overflow: hidden;
-    padding: 0 2rem;
+    padding: 0;
     position: sticky;
     top: 0;
 }
@@ -43,7 +43,6 @@ p {
     background: #FFF;
     box-sizing: border-box;
     height: 100%;
-    padding: 2rem;
     position: fixed;
     right: -25%;
     top: 0;
@@ -54,6 +53,24 @@ p {
 .site-header__nav--active {
     box-shadow: 0 0 15px 10px rgba(0, 0, 0, 0.1);
     right: 0;
+}
+
+.site-header__nav ul {
+    list-style: none;
+    padding: 0 2rem;
+}
+
+.site-header__nav ul li {
+    align-items: center;
+    display: flex;
+    font-size: 16px;
+    height: 55px;
+    position: relative;
+}
+
+.site-header__nav ul li a {
+    color: #42526E;
+    text-decoration: none;
 }
 
 .hamburger {
@@ -101,6 +118,17 @@ p {
     width: 100%;
 }
 
+.menu-header {
+    align-items: center;
+    background-color: #f4f5f7;
+    color: #0052CC;
+    display: flex;
+    font-size: 1.2rem;
+    height: 55px;
+    padding: 0 2rem;
+    position: relative;
+}
+
 /*Body*/
 .container {
     display: flex;
@@ -109,7 +137,6 @@ p {
 }
 
 .page-content {
-    max-width: 1400px;
     padding: 0 2rem;
     width: 100%;
 }
