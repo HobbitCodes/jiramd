@@ -2,7 +2,7 @@ import React, {Component} from 'react'
 import axios from 'axios';
 
 class JiraForm extends Component {
-    UPLOAD_ENDPOINT = 'http://jiramdapp.strawberrystage.co.uk/api/jira/index.php';
+    UPLOAD_ENDPOINT = 'https://jiramdapp.strawberrystage.co.uk/api/jira/index.php';
 
     constructor(props) {
         super(props);
